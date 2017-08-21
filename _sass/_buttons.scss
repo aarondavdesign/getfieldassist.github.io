@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid $lightBlue;
+  border-radius: 22.5px;
+  text-decoration: none !important;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+
+  &.btn-default {
+    color: $lightBlue;
+    border-color: currentColor;
+  }
+
+  &.btn-primary {
+    color: white;
+    background: $lightBlue;
+  }
+
+  span, svg {
+    display: inline-block; 
+    vertical-align: middle;
+  }
+
+  svg + span {
+    margin-left: 10px;
+  }
+
+  span + svg {
+    margin-left: 10px;
+  }
+}

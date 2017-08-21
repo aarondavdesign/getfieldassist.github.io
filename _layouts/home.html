@@ -9,11 +9,13 @@
 
     <title>{{ site.title }}</title>
   </head>
-  <body class="homepage">
+  <body class="home">
     <div class="container">
       {% include header.html %}
-    
-      {{ content }}
+      
+      <main>
+        {{ content }}
+      </main>
 
       {% include footer.html %}
     </div>

@@ -1,3 +1,47 @@
 footer {
-  
+  background-color: $lightBlue;
+  background-image: url('/img/repeat-bottom.png');
+  padding: 45px 15px;
+
+  .inner {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+    h2 {
+      font-size: 36px;
+      font-size: 500;
+      margin: 0;
+    }
+
+    P {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .pricing-card {
+      margin: 50px 0;
+      background: white;
+      color: $darkBlue;
+      padding: 45px;
+
+      h1 {
+        color: $darkBlue;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      span {
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: 500;
+        display: block;
+      }
+
+      a {
+        margin-top: 15px;
+      }
+    }
+  }
 }
