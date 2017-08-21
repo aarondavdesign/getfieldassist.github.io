@@ -1,0 +1,12 @@
+title: Field Assist
+email: support@getfieldassist.com
+description: ""
+baseurl: ""
+url: "http://getfieldassist.com" 
+sass:
+    style: compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - .gitignore
