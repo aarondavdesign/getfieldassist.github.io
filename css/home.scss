@@ -105,3 +105,71 @@ body.home {
     }
   }
 }
+
+@media (max-width: 985px) {
+  body.home {
+    main {
+      .features-list {
+        li {
+          width: calc(100% / 2);
+
+          &:nth-child(3n + 1) {
+            clear: none;
+          }
+
+          &:nth-child(2n + 1) {
+            clear: both;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 875px) {
+  body.home {
+    main {
+      .talking-heads {
+        .row {
+          & > div {
+            clear: both;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  body.home {
+    main {
+      .features-list {
+        li {
+          width: 100%;
+          clear: both;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 457px) {
+  body.home {
+    main {
+      .talking-heads {
+        .row {
+          & > div {
+            .img-wrapper {
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
