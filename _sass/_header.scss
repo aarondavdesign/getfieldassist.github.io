@@ -32,6 +32,8 @@ header {
   }
 
   .hero {
+    overflow: hidden;
+
     img {
       max-width: 100%;
       margin-bottom: -150px;
