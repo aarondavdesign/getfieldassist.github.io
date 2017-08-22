@@ -33,12 +33,14 @@ header {
   }
 
   .hero {
-    overflow: hidden;
+    // overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
 
     img {
       max-width: 100%;
       margin-bottom: -150px;
-      margin-left: -1px;
+      margin-left: -16px;
     }
 
     h1 {
