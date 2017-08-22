@@ -10,6 +10,7 @@ header {
 
     & > div {
       width: 250px;
+      line-height: 43px;
 
       ul {
         list-style-type: none;
@@ -102,6 +103,11 @@ header {
     nav {
       & > div {
         width: auto;
+        line-height: 36px;
+      }
+
+      .btn {
+        display: none;
       }
     }
 
